@@ -210,6 +210,14 @@ header p {
     color: rgb(255, 255, 255);
 }
 
+#Aboutme p {
+    font-size: 1.5em;
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 20px;
+    color: rgb(255, 255, 245);
+}
+
 /* Contact */
 
 #ContactSpace {
