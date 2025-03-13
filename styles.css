@@ -199,24 +199,42 @@ header p {
 #Aboutme {
     min-height:800px;
     background-color: rgb(12, 12, 12);
+    
+}
+
+#Aboutme div {
+    position: relative;
+    float: left;
+    width: 90%;
+    left: 05%;
 }
 
 #Aboutme h1 {
     font-size: 1.5em;
-    font-family: 'Minecraftia', sans-serif;
     text-align: center;
-    font-size: 40px;
+    font-family: proxima-nova, sans-serif;
+    font-size: 27px;
     padding-bottom: 20px;
     color: rgb(255, 255, 255);
 }
 
-#Aboutme p {
-    font-size: 1.5em;
-    font-family: Trebuchet MS, sans-serif;
-    text-align: center;
-    font-size: 25px;
-    padding-bottom: 20px;
-    color: rgb(255, 255, 245);
+#Aboutme img {
+    width: 30%; /* Adjust the size of the image */
+    height: 30%; /* Ensure the height and width are equal */
+    float: left;
+}
+
+.AbtMeTxt {
+    display: block;
+    white-space: normal;
+    text-align: justify;
+    color: rgb(179, 183, 188);
+    font-family: proxima-nova, sans-serif;
+    font-size: 16px; 
+    line-height: 28px; 
+    padding-right: 90px;
+    padding-top: 45px;
+    top: 10%;
 }
 
 /* Contact */
